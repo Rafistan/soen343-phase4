@@ -1,1 +1,50 @@
 <app-navbar></app-navbar>
+<mat-card class="all-card">
+  <mat-card-title style="text-align: center; font-size: 40px">Previous Orders</mat-card-title>
+  <div style="height: 30px"></div>
+  <hr>
+  <mat-card-content style="font-size: 22px">
+    <div style=" margin-left: 20px">
+      <div style="text-align: center">
+        <mat-label style="font-size: 30px">Order #1</mat-label><br>
+      </div>
+      <br><mat-label>Status: Delivered</mat-label><br>
+      <br><mat-label>Delivered: 4/8/2022</mat-label><br>
+      <br><mat-label>Price: 32.43$</mat-label><br>
+      <mat-card-actions>
+        <div style="text-align: center">
+          <button mat-raised-button color="primary" class="login-button"[routerLink]="['/login']">View Items</button>
+        </div>
+      </mat-card-actions>
+      <hr>
+      <div style="text-align: center">
+        <mat-label style="font-size: 30px">Order #2</mat-label><br>
+      </div>
+      <br><mat-label>Status: Delivered</mat-label><br>
+      <br><mat-label>Delivered: 4/14/2022</mat-label><br>
+      <br><mat-label>Price: 9.66$</mat-label><br>
+      <mat-card-actions>
+        <div style="text-align: center">
+          <button mat-raised-button color="primary" class="login-button"[routerLink]="['/login']">View Items</button>
+        </div>
+      </mat-card-actions>
+      <hr>
+      <div style="text-align: center">
+        <mat-label style="font-size: 30px">Order #3</mat-label><br>
+      </div>
+      <br><mat-label>Status: In-Progress</mat-label><br>
+      <br><mat-label>Estimated Delivery Date and Time: <br> 5/23/2022 from 13:00 to 19:00</mat-label><br>
+      <br><mat-label>Price: 154.65$</mat-label><br>
+      <mat-card-actions>
+        <div style="text-align: center">
+          <button mat-raised-button color="primary" class="login-button"[routerLink]="['/login']">View Items</button>
+          <button mat-raised-button color="primary" class="login-button"[routerLink]="['/login']">Track Package</button>
+        </div>
+      </mat-card-actions>
+
+      <hr>
+    </div>
+
+  </mat-card-content>
+
+</mat-card>
