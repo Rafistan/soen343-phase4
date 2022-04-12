@@ -38,6 +38,11 @@ import { OrdersPageComponent } from './orders-page/orders-page.component';
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,
+    FormsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatInputModule,
+    MatIconModule,
     FormsModule
   ],
   providers: [],

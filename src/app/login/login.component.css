@@ -1,0 +1,19 @@
+.login-card {
+  max-width: 400px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(50%);
+}
+.login-button{
+  height: 40px;
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+}
+
+.register-button{
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
