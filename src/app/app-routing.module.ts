@@ -4,6 +4,9 @@ import { RegisterComponent } from "./register/register.component";
 import { HomeComponent } from "./home/home.component";
 import { AppComponent } from "./app.component";
 import { LoginComponent } from "./login/login.component";
+import { CurrentOrderPageComponent } from "./current-order-page/current-order-page.component";
+import { PreviousOrdersPageComponent } from "./previous-orders-page/previous-orders-page.component";
+import { SupportComponent } from "./support/support.component";
 
 const routes: Routes = [
   {
@@ -21,6 +24,18 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'home/view-cart',
+    component: CurrentOrderPageComponent
+  },
+  {
+    path: 'home/past-orders',
+    component: PreviousOrdersPageComponent,
+  },
+  {
+    path: 'home/request-support',
+    component: SupportComponent,
   }
 ];
 

@@ -13,10 +13,14 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
-import { ProductComponent } from './product/product.component';
 import { SupportComponent } from './support/support.component';
-import { ProductPageComponent } from './product-page/product-page.component';
-import { OrdersPageComponent } from './orders-page/orders-page.component';
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { OrderProductComponent } from './order-product/order-product.component';
+import { PastProductPageComponent } from './past-product-page/past-product-page.component';
+import { PreviousOrdersPageComponent } from './previous-orders-page/previous-orders-page.component';
+import { CurrentOrderPageComponent } from './current-order-page/current-order-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -24,10 +28,12 @@ import { OrdersPageComponent } from './orders-page/orders-page.component';
     RegisterComponent,
     HomeComponent,
     LoginComponent,
-    ProductComponent,
     SupportComponent,
-    ProductPageComponent,
-    OrdersPageComponent
+    OrderProductComponent,
+    PastProductPageComponent,
+    PreviousOrdersPageComponent,
+    CurrentOrderPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +49,9 @@ import { OrdersPageComponent } from './orders-page/orders-page.component';
     MatButtonModule,
     MatInputModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    MatSidenavModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
