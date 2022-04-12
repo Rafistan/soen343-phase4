@@ -23,6 +23,7 @@ import { CurrentOrderPageComponent } from './current-order-page/current-order-pa
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     PastProductPageComponent,
     PreviousOrdersPageComponent,
     CurrentOrderPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductDetailPageComponent
   ],
   imports: [
     BrowserModule,

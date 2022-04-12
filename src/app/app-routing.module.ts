@@ -8,6 +8,7 @@ import { CurrentOrderPageComponent } from "./current-order-page/current-order-pa
 import { PreviousOrdersPageComponent } from "./previous-orders-page/previous-orders-page.component";
 import { SupportComponent } from "./support/support.component";
 import {OrderProductComponent} from "./order-product/order-product.component";
+import {ProductDetailPageComponent} from "./product-detail-page/product-detail-page.component";
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'home/shop',
     component: OrderProductComponent,
+  },
+  {
+    path: 'home/shop/view-product-detail',
+    component: ProductDetailPageComponent,
   }
 ];
 
