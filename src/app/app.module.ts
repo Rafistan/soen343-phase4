@@ -21,6 +21,8 @@ import { PastProductPageComponent } from './past-product-page/past-product-page.
 import { PreviousOrdersPageComponent } from './previous-orders-page/previous-orders-page.component';
 import { CurrentOrderPageComponent } from './current-order-page/current-order-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import {MatTableModule} from "@angular/material/table";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatIconModule,
     FormsModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTableModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
