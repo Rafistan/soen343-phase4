@@ -9,6 +9,8 @@ import { PreviousOrdersPageComponent } from "./previous-orders-page/previous-ord
 import { SupportComponent } from "./support/support.component";
 import {OrderProductComponent} from "./order-product/order-product.component";
 import {ProductDetailPageComponent} from "./product-detail-page/product-detail-page.component";
+import {PreviousOrdersItemsComponent} from "./previous-orders-items/previous-orders-items.component";
+import {TrackingComponent} from "./tracking/tracking.component";
 
 const routes: Routes = [
   {
@@ -46,7 +48,16 @@ const routes: Routes = [
   {
     path: 'home/shop/view-product-detail',
     component: ProductDetailPageComponent,
+  },
+  {
+    path: 'home/past-orders/previous-orders-items',
+    component: PreviousOrdersItemsComponent,
+  },
+  {
+    path: 'home/past-orders/tracking',
+    component: TrackingComponent,
   }
+
 ];
 
 @NgModule({
