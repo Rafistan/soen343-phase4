@@ -25,6 +25,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
 import { PreviousOrdersItemsComponent } from './previous-orders-items/previous-orders-items.component';
 import { TrackingComponent } from './tracking/tracking.component';
+import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { TrackingComponent } from './tracking/tracking.component';
     NavbarComponent,
     ProductDetailPageComponent,
     PreviousOrdersItemsComponent,
-    TrackingComponent
+    TrackingComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

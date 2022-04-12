@@ -9,6 +9,7 @@ import { PreviousOrdersPageComponent } from "./previous-orders-page/previous-ord
 import { SupportComponent } from "./support/support.component";
 import {OrderProductComponent} from "./order-product/order-product.component";
 import {ProductDetailPageComponent} from "./product-detail-page/product-detail-page.component";
+import {PaymentComponent} from "./payment/payment.component";
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'home/shop/view-product-detail',
     component: ProductDetailPageComponent,
+  },
+  {
+    path: 'home/pay',
+    component: PaymentComponent,
   }
 ];
 
