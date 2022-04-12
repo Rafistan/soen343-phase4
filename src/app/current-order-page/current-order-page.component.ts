@@ -6,6 +6,7 @@ import {SelectionModel} from "@angular/cdk/collections";
 const ELEMENT_DATA: PeriodicElement[] = [
   {position: 1, name: 'Hydro Flask', price: 18.99},
   {position: 2, name: 'Cap', price: 25.99},
+  {position: 3, name: 'Total', price: 45.98},
 ];
 
 @Component({
