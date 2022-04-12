@@ -12,6 +12,7 @@ import {ProductDetailPageComponent} from "./product-detail-page/product-detail-p
 import {PreviousOrdersItemsComponent} from "./previous-orders-items/previous-orders-items.component";
 import {TrackingComponent} from "./tracking/tracking.component";
 import {PaymentComponent} from "./payment/payment.component";
+import {ReviewOfServiceComponent} from "./review-of-service/review-of-service.component";
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'home/request-support',
     component: SupportComponent,
+  },
+  {
+    path: 'home/review-of-service',
+    component: ReviewOfServiceComponent,
   },
   {
     path: 'home/shop',

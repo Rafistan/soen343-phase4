@@ -26,6 +26,7 @@ import { ProductDetailPageComponent } from './product-detail-page/product-detail
 import { PreviousOrdersItemsComponent } from './previous-orders-items/previous-orders-items.component';
 import { TrackingComponent } from './tracking/tracking.component';
 import { PaymentComponent } from './payment/payment.component';
+import { ReviewOfServiceComponent } from './review-of-service/review-of-service.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PaymentComponent } from './payment/payment.component';
     ProductDetailPageComponent,
     PreviousOrdersItemsComponent,
     TrackingComponent,
-    PaymentComponent
+    PaymentComponent,
+    ReviewOfServiceComponent
   ],
   imports: [
     BrowserModule,
