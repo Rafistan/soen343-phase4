@@ -1,1 +1,24 @@
 <app-navbar></app-navbar>
+<mat-card class="all-card">
+  <mat-card-title>Product Detail Page</mat-card-title>
+  <mat-card-content>
+    <img class="product" src="../../assets/hydro.png" alt="" style="width: 200px">
+    <h2>Product:</h2>
+    <h4>Hydro flask</h4>
+    <h2>Product detail:</h2>
+    <h4>Keep liquid warm for up to 24 hours and cold for up to 48 hours</h4>
+    <h2>Product review:</h2>
+    <h4>
+      <mat-icon>star</mat-icon>
+      <mat-icon>star</mat-icon>
+      <mat-icon>star</mat-icon>
+      <mat-icon>star</mat-icon>
+      <mat-icon>star_border</mat-icon>
+    </h4>
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="button">
+      <button mat-raised-button color="primary"  [routerLink]="['/home/view-cart']">Add to cart</button>
+    </div>
+  </mat-card-actions>
+</mat-card>

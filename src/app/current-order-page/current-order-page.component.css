@@ -1,0 +1,23 @@
+table {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  text-align: center;
+  color: #6e1cf2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 10px;
+  width: 300px;
+}
