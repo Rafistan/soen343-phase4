@@ -7,6 +7,7 @@ import { LoginComponent } from "./login/login.component";
 import { CurrentOrderPageComponent } from "./current-order-page/current-order-page.component";
 import { PreviousOrdersPageComponent } from "./previous-orders-page/previous-orders-page.component";
 import { SupportComponent } from "./support/support.component";
+import {OrderProductComponent} from "./order-product/order-product.component";
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'home/request-support',
     component: SupportComponent,
+  },
+  {
+    path: 'home/shop',
+    component: OrderProductComponent,
   }
 ];
 

@@ -1,0 +1,21 @@
+table {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+mat-form-field {
+  position: relative;
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  margin-right: 10px;
+}
