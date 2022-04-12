@@ -1,1 +1,19 @@
 <app-navbar></app-navbar>
+<mat-card class="example-card">
+  <mat-card-title>Details about the order</mat-card-title>
+  <mat-card-content>
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Comments</mat-label>
+        <textarea matInput placeholder="ex: missing item in order #1"></textarea>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary">Send</button>
+    <div style="height: 10px;"></div>
+    <button mat-raised-button color="primary">Help</button>
+    <div style="height: 10px;"></div>
+    <button mat-raised-button color="primary">Contact Us</button>
+  </mat-card-actions>
+</mat-card>
