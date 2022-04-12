@@ -1,0 +1,18 @@
+.example-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+mat-card-title {
+  text-align: center;
+  color: #6e1cf2;
+  margin-bottom: 30px;
+}
+
+mat-card-actions {
+  text-align: center;
+}
+
+mat-card-content {
+  text-align: center;
+}

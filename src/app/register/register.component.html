@@ -1,1 +1,16 @@
-<p>register works!</p>
+<mat-card class="example-card">
+  <mat-card-title>Register</mat-card-title>
+  <mat-card-content>
+    <mat-form-field class="example-form-field" appearance="fill" *ngFor="let registerValue of registrationValues">
+      <mat-label>{{ registerValue.label }}</mat-label>
+      <input matInput type="text" [(ngModel)]="registerValue.value">
+      <button *ngIf="registerValue.value" matSuffix mat-icon-button aria-label="Clear" (click)="registerValue.value=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="warn" [routerLink]="['/login']">Back</button>
+    <button mat-raised-button color="primary" [routerLink]="['/home']">Sign up</button>
+  </mat-card-actions>
+</mat-card>
