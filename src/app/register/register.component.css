@@ -3,11 +3,11 @@
   margin: auto;
 }
 
-mat-card-title {
-  text-align: center;
-  color: #6e1cf2;
-  margin-bottom: 30px;
-}
+/*mat-card-title {*/
+/*  text-align: center;*/
+/*  color: #6e1cf2;*/
+/*  margin-bottom: 30px;*/
+/*}*/
 
 mat-card-actions {
   text-align: center;
