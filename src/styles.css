@@ -18,7 +18,8 @@ mat-card-title {
 }
 .all-card {
   max-width: 600px;
-  margin: auto;
-  top: 50%;
-  transform: translateY(50%);
+  margin-top: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }

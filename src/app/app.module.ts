@@ -17,13 +17,14 @@ import { SupportComponent } from './support/support.component';
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { OrderProductComponent } from './order-product/order-product.component';
-import { PastProductPageComponent } from './past-product-page/past-product-page.component';
 import { PreviousOrdersPageComponent } from './previous-orders-page/previous-orders-page.component';
 import { CurrentOrderPageComponent } from './current-order-page/current-order-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
+import { PreviousOrdersItemsComponent } from './previous-orders-items/previous-orders-items.component';
+import { TrackingComponent } from './tracking/tracking.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +34,12 @@ import { ProductDetailPageComponent } from './product-detail-page/product-detail
     LoginComponent,
     SupportComponent,
     OrderProductComponent,
-    PastProductPageComponent,
     PreviousOrdersPageComponent,
     CurrentOrderPageComponent,
     NavbarComponent,
-    ProductDetailPageComponent
+    ProductDetailPageComponent,
+    PreviousOrdersItemsComponent,
+    TrackingComponent
   ],
   imports: [
     BrowserModule,
